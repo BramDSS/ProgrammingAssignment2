@@ -1,10 +1,3 @@
-## There are two functions:
-## 1. makeCacheMatrix: which creates an object with a matrix (the input),
-##      the inverse of the matrix and fuctions to retrieve and/or set these
-##      matrices
-## 2. cacheSolve: if the inverse of the matrix (part of input-object) has
-##      already been calculated, this inverse is retrieved, else the inverse is
-##      calculated and stored in the input-object.
 
 ## The following set of two functions create a possibility to avoid time
 ## consuming calculation of repeatingly calculating the same inverse matrix.
